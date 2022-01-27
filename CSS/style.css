@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    border-bottom: 1px solid blue;
+    
+}
+
+.logo img{
+    width: 100px;
+}
+
+nav{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: none;
+    cursor: pointer;
+}
+
+
+nav a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.pesquisar{
+    display: flex;
+    align-items: center
+}
+
+.pesquisar input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.banner{
+    background-image: url("../Images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    
+}
+
+.texto{
+    padding: 50px;
+    text-align: center;
+    width: 700px;
+    margin: auto;
+    color: rgba(233, 233, 243, 0.808);
+}
+ .destaques{
+     background-color: black;
+ }
+
+ .titulo{
+     height: 1px;
+     background-color: blue;
+     
+ }
+
+ .t-card{
+    width: 322px;
+ } 
+
+ .t-img{
+     width: 70%;
+     border-radius: 60px;
+ }
+
+ .jogo{
+     margin-top: 60px;
+     padding-left: 50px;
+     padding-top: 60px;
+ }
+
+
+
+ .img-produtos{
+     width: 150px;
+ }
+
+ footer{
+     background-color: #202225;
+     
+ }
+
+ .img-footer{
+     width: 100px;
+ }
+
+ .social{
+     width: 200px;
+ }
+
+ .img-social{
+     width: 50px;
+     height: 40px;
+ }
+
+ 
+
+ @media screen and (max-width: 768px){
+     nav{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgb(10, 10, 10);
+        margin-top: 110px;
+        display: none;
+     }
+
+     nav a{
+        font-size: 26px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 10px;
+        margin: 10px;
+    }
+
+     .icon{
+         display: flex;
+     }
+
+     .texto{
+        padding: 50px;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        color: rgba(233, 233, 243, 0.808);
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    
+    }
+
+    .t-card{
+        margin-bottom: 30px;
+    }
+
+    .jogo-destaque{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-direction: column-reverse;
+        width: 100%;
+
+    }
+
+    .jogo{
+        margin-top: -50px;
+        padding-left: 0px;
+        padding-top: 0px;
+        margin-bottom: 40px;
+    }
+
+    .produtos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    
+   
+    
+ }
