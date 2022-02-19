@@ -55,11 +55,12 @@ nav a{
     padding: 5px;
 }
 
-.banner{
-    background-image: url("../Images/banner.jpg");
+
+
+.banner img{
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 800px;
     
 }
 
@@ -119,16 +120,26 @@ nav a{
      height: 40px;
  }
 
+ .login{
+    background-color: #141516;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow:  8px 8px 20px#1983ec;
+ }
+
  
 
  @media screen and (max-width: 768px){
      nav{
+        z-index: 2;
         position: absolute;
         display: flex;
         flex-direction: column;
         align-items: center;
         background: rgb(10, 10, 10);
-        margin-top: 110px;
+        margin-top: 101px;
         display: none;
      }
 

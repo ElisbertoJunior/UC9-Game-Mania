@@ -1,3 +1,9 @@
+
+//$("#icon").click(() => {
+//    $("#nav").slideToggle("slow");
+//})
+
+
 let icon = document.querySelector('#icon');
 
 icon.addEventListener('click', ()=>{ 
